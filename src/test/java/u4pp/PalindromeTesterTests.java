@@ -35,7 +35,7 @@ class PalindromeTesterTests {
 
     @Test
     void isPalindrome_whenCalledWithAllLowerCaseLongPalindrome_returnsTrue() {
-        assertTrue(PalindromeTester.isPalindrome("aaaabbccddeeddeeddggaaddggddaaaeeeeppeeeeaaaddggddaaggddeeddeeddccbbaaaaaa"));
+        assertTrue(PalindromeTester.isPalindrome("aaaabbccddeeddeeddggaaddggddaaaeeeeppeeeeaaaddggddaaggddeeddeeddccbbaaaa"));
     }
 
     @Test

@@ -1,2 +1,2 @@
-run="mvn package"
+run="mkdir -p ./target && javac -classpath .:/run_dir/junit-4.12.jar:target/dependency/* -d ./target src/main/java/u4pp/*.java && cd ./target && java -classpath .:/run_dir/junit-4.12.jar:target/dependency/* u4pp/Main"
 language="bash"
