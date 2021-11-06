@@ -52,7 +52,7 @@ public class RockPaperScissors {
           playerChoice = changeSomething(playerChoice);
           computerChoice = changeSomething(computerChoice);
             if(result == 0){
-                ties++;
+                ties = ties + 1;
                 System.out.println("You both picked " + playerChoice + ". " + "Its a tie!");
                 System.out.println("You have " + wins + " wins and " + losses + " losses and " + ties + " ties");
             }
